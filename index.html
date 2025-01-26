@@ -5,7 +5,7 @@
         <meta name="description" content="Evaluating Concurrent Robustness of Language Models Across Diverse Challenge Sets">
         <meta name="keywords" content="InfoTabs, Info Tabs">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title> NTSEBench: Cognitive Reasoning Benchmark for Vision Language Models </title>
+        <title> <span class='infotabs'>NTSEBench</span>: Cognitive Reasoning Benchmark for Vision Language Models </title>
         <link rel="icon" href="./static/images/msin-removebg-preview.png">
         <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
         <link rel="stylesheet" href="./static/css/bulma.min.css">
@@ -215,11 +215,11 @@
                                     <p>
                                         <b>
                                             <img src="static/images/msin-removebg-preview.png" style="width:1.0em;vertical-align: middle" alt="Logo">
-                                            Examples from the NTSEBench dataset
+                                            Examples from the <span class='infotabs'>NTSEBench</span> dataset
                                         </b>
                                         <br>
                                         Three samples of textual, direction, and spatial reasoning questions from the proposed dataset. Solutions to these questions are not included here but are provided in the dataset
-                                        <span class="infotabs">InfoTabs</span>
+                                        <span class="infotabs">NTSEBench</span>
                                         dataset
                                     </p>
                                 </div>
@@ -239,7 +239,7 @@
                         <div class="content has-text-justified">
                             <!-- <iframe src="https://drive.google.com/file/d/1ixJTqdV7OGCy5jzu_eP6QUyzz26Vze36/preview" width="100%" height="650"></iframe> -->
                             <p>
-                                Cognitive textual and visual reasoning tasks, including puzzles, series, and analogies, demand the ability to quickly reason, decipher, and evaluate patterns both textually and spatially. Due to extensive training on vast amounts of human-curated data, large language models (LLMs) and vision language models (VLMs) excel in common-sense reasoning tasks, but still struggle with more complex reasoning that demands deeper cognitive understanding. We introduce <b>NTSEBench</b>, a new dataset designed to evaluate cognitive multimodal reasoning and problem-solving skills of large models. The dataset contains 2,728 multiple-choice questions, accompanied by a total of 4,642 images, categorized into 26 different types. These questions are drawn from the nationwide NTSE examination in India and feature a mix of visual and textual general aptitude challenges, designed to assess intelligence and critical thinking skills beyond mere rote learning. We establish baselines on the dataset using state-of-the-art LLMs and VLMs. To facilitate a comparison between open-source and propriety models, we propose four distinct modeling strategies to handle different modalities—text and images—in the dataset instances.
+                                Cognitive textual and visual reasoning tasks, including puzzles, series, and analogies, demand the ability to quickly reason, decipher, and evaluate patterns both textually and spatially. Due to extensive training on vast amounts of human-curated data, large language models (LLMs) and vision language models (VLMs) excel in common-sense reasoning tasks, but still struggle with more complex reasoning that demands deeper cognitive understanding. We introduce <span class='infotabs'>NTSEBench</span>, a new dataset designed to evaluate cognitive multimodal reasoning and problem-solving skills of large models. The dataset contains 2,728 multiple-choice questions, accompanied by a total of 4,642 images, categorized into 26 different types. These questions are drawn from the nationwide NTSE examination in India and feature a mix of visual and textual general aptitude challenges, designed to assess intelligence and critical thinking skills beyond mere rote learning. We establish baselines on the dataset using state-of-the-art LLMs and VLMs. To facilitate a comparison between open-source and propriety models, we propose four distinct modeling strategies to handle different modalities—text and images—in the dataset instances.
 
                             </p>
                         </div>
@@ -256,7 +256,7 @@
         <!-- <h1 class="title is-1 InfoTabs"><img src="static/images/msin-removebg-preview.png" style="width:1.0em;vertical-align: middle" alt="Logo"/>InfoTabs Dataset</h1> -->
         <h1 class="title is-1 InfoTabs">
             <img src="static/images/msin-removebg-preview.png" style="width:1em;vertical-align: middle" alt="Logo">
-            <span class="infotabs" style="vertical-align: middle">NTSEBench Dataset</span>
+            <span class="infotabs" style="vertical-align: middle"><span class='infotabs'>NTSEBench</span> Dataset</span>
         </h1>
     </div>
 </section>
@@ -269,7 +269,7 @@
                 <h2 class="title is-3">Overview</h2>
                 <div class="content has-text-justified">
                     <p>
-                        . The National Talent Search Examination (NTSE), administered by the National Council of Educational Research and Training (NCERT) in India since 1963, is a nationwide exam for secondary-grade students. The exam consists of two sections designed to assess a wide range of analytical skills: the Mental Ability Test (MAT) and the Scholastic Aptitude Test (SAT). The MAT section evaluates students’ general aptitude, critical thinking, logical and spatial reasoning, and analytical problem-solving skills (for both textual and visual problems). In contrast, the SAT assesses their domain-specific knowledge in science and mathematics. All questions in the NTSE are multiplechoice (MCQ) with one correct option. Questions and options can be text/image or a combination of both, i.e., multi-modal. We aim to create a dataset focused on cognitive reasoning abilities (MAT-type questions). Cognitive Reasoning. Cognitive understanding in the context of NTSEBENCH refers to the ability to process information, recognize patterns, draw inferences, and solve problems using critical, logical and analytical reasoning. This aligns with fundamental concepts in cognitive science, such as problem-solving, pattern recognition, and inferential reasoning
+                        . The National Talent Search Examination (NTSE), administered by the National Council of Educational Research and Training (NCERT) in India since 1963, is a nationwide exam for secondary-grade students. The exam consists of two sections designed to assess a wide range of analytical skills: the Mental Ability Test (MAT) and the Scholastic Aptitude Test (SAT). The MAT section evaluates students’ general aptitude, critical thinking, logical and spatial reasoning, and analytical problem-solving skills (for both textual and visual problems). In contrast, the SAT assesses their domain-specific knowledge in science and mathematics. All questions in the NTSE are multiplechoice (MCQ) with one correct option. Questions and options can be text/image or a combination of both, i.e., multi-modal. We aim to create a dataset focused on cognitive reasoning abilities (MAT-type questions). Cognitive Reasoning. Cognitive understanding in the context of <span class='infotabs'>NTSEBench</span> refers to the ability to process information, recognize patterns, draw inferences, and solve problems using critical, logical and analytical reasoning. This aligns with fundamental concepts in cognitive science, such as problem-solving, pattern recognition, and inferential reasoning
                     </p>
                     <style>
                                       
@@ -553,12 +553,12 @@
     <section class="section">
         <div class="container">
             <div class="content has-text-justified">
-                <p>The <strong>Analysis</strong> section of the paper presents a comprehensive evaluation of the impact of various strategies on the NTSEBench dataset. The findings indicate that 
+                <p>The <strong>Analysis</strong> section of the paper presents a comprehensive evaluation of the impact of various strategies on the <span class='infotabs'>NTSEBench</span> dataset. The findings indicate that 
                     <ul>
                     <li>Interleaving text and images performs better than Standard VQA and Image Only strategy for most categories. </li>
                     <li>Multi-modal reasoning is significantly harder. </li>
-                    <li>The results reveal that while LLMs generally perform better on the text-only subset of NTSEBench, the high standard deviation (11.04) indicates significant variability in model performance across different question types. This variability may stem from some overlap between NTSEBench and other open-source datasets, suggesting that there are still areas where LLMs exhibit limitations in reasoning capabilities </li>
-                    <li>NTSEBENCH presents a challenging task for SOTA LLMs and VLMs. Based on the findings, it is evident that the proposed dataset presents a challenging task for all state of-the-art LLM and VLM models. None of the open-source models achieve accuracy exceeding 50% on text-only questions and 35% on multimodal questions, with propriety models achieving 62% and 42% accuracy respectively.</li>
+                    <li>The results reveal that while LLMs generally perform better on the text-only subset of <span class='infotabs'>NTSEBench</span>, the high standard deviation (11.04) indicates significant variability in model performance across different question types. This variability may stem from some overlap between <span class='infotabs'>NTSEBench</span> and other open-source datasets, suggesting that there are still areas where LLMs exhibit limitations in reasoning capabilities </li>
+                    <li><span class='infotabs'>NTSEBench</span> presents a challenging task for SOTA LLMs and VLMs. Based on the findings, it is evident that the proposed dataset presents a challenging task for all state of-the-art LLM and VLM models. None of the open-source models achieve accuracy exceeding 50% on text-only questions and 35% on multimodal questions, with propriety models achieving 62% and 42% accuracy respectively.</li>
                 </ul>
                 <style>
                     table {
